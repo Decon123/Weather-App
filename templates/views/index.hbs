@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <!--Injecting header.hbs to index.hbs-->
+    {{>header}}
+    <h2>Weather</h2>
+    <p class="weather">Use this app to search weather....</p>
+    <form action="">
+        <input type="text" placeholder="Location" id="location">
+        <input type="submit" value="Search">
+    </form>
+
+    <p class="message-1"></p>
+    <p class="message-2"></p>
+   <div class="footer">{{>footer}}</div> 
+
+    <script src="JS/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.parent-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: silver;
+    height: 100px;
+    align-items: center;
+    font-size: 1.5rem;
+   
+    
+}
+.item {
+    text-decoration: none;
+    color: slategray;
+}
+
+.item:hover {
+    text-decoration:underline;
+    color: salmon;
+}
+form {
+    margin: 10px;
+}
+
+input[type="text"],input[type="submit"] {
+    padding: 10px;
+}
+input[type="submit"] {
+    border: none;
+    background-color: slategray;
+    color: white;
+    cursor: pointer;
+}
+.footer {
+    position: absolute;
+    bottom: 15px;
+}
+.message-1,.message-2 {
+    margin-top: 10px;
+}
+.error {
+    color: red;
+}
